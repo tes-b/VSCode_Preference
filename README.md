@@ -1,2 +1,2 @@
 # VSCode_Preference
-VSCode keybinding and snippets
+For keeping VSCode keybinding and snippets
