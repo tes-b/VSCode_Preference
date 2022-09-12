@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+shift+delete",
+        "command": "notebook.clearAllCellsOutputs"
+    },
+    {
+        "key": "ctrl+f10",
+        "command": "notebook.cell.executeCellsAbove"
+    },
+    {
+        "key": "ctrl+f9",
+        "command": "notebook.execute"
+    }
+]

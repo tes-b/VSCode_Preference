@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.useSystemClipboard": true,
+    "explorer.confirmDelete": false,
+    "vim.autoSwitchInputMethod.defaultIM": "1033",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\\\im-select\\\\im-select.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "C:\\\\im-select\\\\im-select.exe {im}",
+    "vim.autoSwitchInputMethod.enable": true,
+    "terminal.integrated.splitCwd": "workspaceRoot",
+    "notebook.lineNumbers": "on",
+    "editor.mouseWheelZoom": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100"
+    ],
+    "editor.formatOnSave": true,
+}

@@ -1,0 +1,48 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	"confusion_matrix": {
+		"prefix": "confusion_matrix",
+		"body": [
+			"def confusion_matrix(y_pred, y_real):",
+			"    tp, tn, fp, fn = -1, -1, -1, -1",
+			"    tp = sum((y_pred == 1) & (y_real == 1))",
+			"    tn = sum((y_pred == 0) & (y_real == 0))",
+			"    fp = sum((y_pred == 1) & (y_real == 0))",
+			"    fn = sum((y_pred == 0) & (y_real == 1))",
+			"    return tp, tn, fp, fn",
+			"    ",
+			"    return accuracy, precision, recall, f1",
+		],
+		"description": "Create Function_confusion_matrix"
+	},
+	"calculate_performances": {
+		"prefix": "calculate_performances",
+		"body": [
+			"from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score",
+			"def calculate_performances(y_pred, y_real):",
+			"    accuracy = 0",
+			"    precision = 0",
+			"    recall = 0",
+			"    f1 = 0",
+			"    ",
+			"    accuracy = accuracy_score(y_real, y_pred)",
+			"    precision = precision_score(y_real, y_pred)",
+			"    recall = recall_score(y_real, y_pred)",
+			"    f1 = f1_score(y_real, y_pred)",
+			"    ",
+			"    return accuracy, precision, recall, f1",
+		],
+		"description": "Create Function_confusion_matrix"
+	},
+}
