@@ -19,4 +19,8 @@
         "100"
     ],
     "editor.formatOnSave": true,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
 }

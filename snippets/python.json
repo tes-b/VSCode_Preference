@@ -45,4 +45,12 @@
 		],
 		"description": "Create Function_confusion_matrix"
 	},
+	"correlation": {
+		"prefix": "correlation",
+		"body": [
+			"df_corr = df.corr()",
+			"df_corr['column'].sort_values(ascending=False)"
+		],
+		"description": "show_correlation_in_descending"
+	},
 }
