@@ -11,8 +11,8 @@
 	// 		"$2"
 	// 	],
 	// 	"description": "Log output to console"
-	"confusion_matrix": {
-		"prefix": "confusion_matrix",
+	"snp_confusion_matrix": {
+		"prefix": "snp_confusion_matrix",
 		"body": [
 			"def confusion_matrix(y_pred, y_real):",
 			"    tp, tn, fp, fn = -1, -1, -1, -1",
@@ -26,8 +26,8 @@
 		],
 		"description": "Create Function_confusion_matrix"
 	},
-	"calculate_performances": {
-		"prefix": "calculate_performances",
+	"snp_calculate_performances": {
+		"prefix": "snp_calculate_performances",
 		"body": [
 			"from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score",
 			"def calculate_performances(y_pred, y_real):",
@@ -45,12 +45,31 @@
 		],
 		"description": "Create Function_confusion_matrix"
 	},
-	"correlation": {
-		"prefix": "correlation",
+	// Modules
+	"snp_modules_basic": {
+		"prefix": "snp_modules_basic",
+		"body": [
+			"import pandas as pd",
+			"import numpy as np",
+			"import matplotlib.pyplot as plt",
+			"import seaborn as sns",
+		],
+		"description": "show_correlation_in_descending"
+	},
+	// DataFrame EDA
+	"snp_check_correlation": {
+		"prefix": "snp_check_correlation",
 		"body": [
 			"df_corr = df.corr()",
 			"df_corr['column'].sort_values(ascending=False)"
 		],
 		"description": "show_correlation_in_descending"
+	},
+	"snp_check_null_sum": {
+		"prefix": "snp_check_null_sum",
+		"body": [
+			"df.isna().sum().sort_values(ascending=False)",
+		],
+		"description": "show_null_sum"
 	},
 }
