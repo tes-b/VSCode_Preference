@@ -88,4 +88,26 @@
 		],
 		"description": "show_null_sum"
 	},
+	// Visualisation
+	"snp_visual_wordcloud": {
+		"prefix": "snp_visual_wordcloud",
+		"body": [
+			"from wordcloud import WordCloud",
+			"",
+			"def wordcloud(data):",
+			"	wordcloud = WordCloud(",
+			"						 background_color = 'White',",
+			"						 max_words = 10,",
+			"						 max_font_size = 100,",
+			"						 scale = 5,",
+			"						 random_state = 5).generate(str(data))",
+			
+			"	fig = plt.figure(1, figsize=(7,7))",
+			"	plt.imshow(wordcloud)",
+			"	plt.axis("off")",
+			"	plt.show()",
+			"wordcloud(df.location)",
+		],
+		"description": "visualise_wordcloud"
+	},
 }
