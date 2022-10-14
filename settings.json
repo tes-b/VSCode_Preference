@@ -23,7 +23,9 @@
         "jsdelivr.com",
         "unpkg.com"
     ],
-    "python.defaultInterpreterPath": "C:\\Users\\TESB\\anaconda3\\envs\\main_py38\\python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\TESB\\anaconda3\\envs\\s314\\python.exe",
     "terminal.integrated.mouseWheelScrollSensitivity": 2,
     "editor.mouseWheelScrollSensitivity": 2,
+    "erd-preview.dotPath": "",
+    "erd-preview.erdPath": "",
 }
